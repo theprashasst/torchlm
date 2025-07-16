@@ -1,5 +1,5 @@
 import numpy as np
-from scipy.integrate import simps
+from scipy.integrate import simpson as simps
 from typing import List, Tuple
 
 __all__ = ["nme", "fr_and_auc"]
